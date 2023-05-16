@@ -9,7 +9,6 @@ const AddChannelsBtn = ({setCreateType, setIsCreating, setIsEditing, setToggleCo
         setIsCreating((prevState) => !prevState);
         setIsEditing(false);
         if(setToggleContainer) setToggleContainer((prevState) => !prevState);
-        console.log('work')
     }
 
     return (
